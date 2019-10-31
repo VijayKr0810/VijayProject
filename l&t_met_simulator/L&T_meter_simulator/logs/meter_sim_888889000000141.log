@@ -1,0 +1,826 @@
+22_Oct_2019 12:52:11 : [Inform] : read_basic_cfg()          : Basic Config read success
+22_Oct_2019 12:52:11 : [Inform] : mdas_db_init()            : Mysql Init done
+22_Oct_2019 12:52:11 : [Inform] : create_all_table()        : Billing table created : BILLING_888889000000141
+22_Oct_2019 12:52:11 : [Inform] : create_all_table()        : Event table created : EVENT_888889000000141
+22_Oct_2019 12:52:11 : [Inform] : create_all_table()        : Instantanious table created : INST_888889000000141
+22_Oct_2019 12:52:11 : [Inform] : create_all_table()        : Load Survey table created : LOAD_SURVEY_888889000000141
+22_Oct_2019 12:52:11 : [Inform] : modem_sock_init()         : connected  to Host : 122.166.196.34 port : 8715
+22_Oct_2019 12:52:11 : [Inform] : sock_init()               : connected  to Host : 122.166.196.34 port : 8710
+22_Oct_2019 12:52:11 : [Inform] : main()                    : Recvd imei : 888889000000141, MeterSerNum : MET_SIM_141
+22_Oct_2019 12:52:11 : [Inform] : proc_mdas_thread          : Sending 1st time imei num on mdas port,
+22_Oct_2019 12:52:15 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 12:52:17 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:52:18 : [Report] : send_power_on_msg()       : Send Power On msg resp len : 124
+22_Oct_2019 12:52:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 25
+22_Oct_2019 12:52:18 : [Inform] : proc_modem_cmd()          : Recv Command : TIME:19/10/22,12:52:13+22
+22_Oct_2019 12:52:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:52:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:52:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:52:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:52:24 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:52:27 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:52:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:52:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:52:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:52:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:52:34 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:52:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:52:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:52:38 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:52:42 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:52:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:52:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:52:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:52:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:52:49 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:52:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:52:53 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:52:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:52:57 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:52:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:52:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:04 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:08 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:09 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:12 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:19 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:23 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:27 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:34 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:37 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:44 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:48 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:52 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:53:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:53:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:53:59 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:03 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:07 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:14 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:18 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:22 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:29 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:33 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:37 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:44 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:48 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:52 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:54:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:54:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:54:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:00 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:03 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:07 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:14 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:18 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:22 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 12:55:22 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 12:55:22 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:29 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:33 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:37 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:44 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:48 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:52 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:55:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:55:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:55:59 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:03 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:07 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:14 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:18 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:22 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:29 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:33 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:37 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:44 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:48 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:52 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:56:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:56:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:56:59 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:09 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:17 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:24 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:28 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:39 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:43 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:57:54 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:57:58 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:57:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:09 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:17 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:24 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 12:58:24 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 12:58:24 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:28 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:39 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:43 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:58:54 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:58 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:58:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:58:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:09 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:17 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:24 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:28 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:39 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:43 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:59:54 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:58 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:59:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:59:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:09 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:17 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:24 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:28 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:32 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:32 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:39 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:43 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:00:54 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:58 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:00:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:00:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:09 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:17 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:24 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:27 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 13:01:27 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 13:01:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:28 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:39 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:43 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:01:54 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:58 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:01:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:01:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:09 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:17 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:24 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:28 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:39 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:43 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:02:54 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:02:58 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:02:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:09 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:17 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:24 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:28 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:39 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:43 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:03:54 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:58 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:03:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:03:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:04:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:09 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:04:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:04:17 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 13:04:26 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:26 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:26 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:26 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:29 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 13:04:29 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 13:04:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:04:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:04:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:05:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:05:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:04 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:09 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:09 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:19 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:24 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:39 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:44 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:06:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:06:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:04 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:09 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:09 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:19 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:24 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:33 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 13:07:33 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 13:07:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:39 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:07:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:07:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:04 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:09 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:09 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:08:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:08:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:09:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:09:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:09:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:09:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:09:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:09:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:09:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:09:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:09:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:09:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:09:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:09:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:09:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:09:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:09:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:09:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:09:44 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:09:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:09:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:09:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:10 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:10 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:10 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 3
+22_Oct_2019 13:10:10 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:19 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:24 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:31 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:31 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:34 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 13:10:34 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 13:10:39 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:10:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:10:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:11:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:11:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:04 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:44 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:12:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:12:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:37 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 13:13:37 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 13:13:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:13:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:13:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:19 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:14:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:14:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:07 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:07 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:24 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:39 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:15:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:15:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:41 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 13:16:41 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 13:16:46 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:46 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:46 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:46 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:16:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:16:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:37 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:37 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:17:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:17:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:23 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:43 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:53 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:18:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:18:58 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:19:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:19:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:19:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:19:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:19:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:19:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:19:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 13:19:18 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 13:19:19 : [Inform] : proc_msg()                : Keyboard Interrupt in Error : [Errno 10054] An existing connection was forcibly closed by the remote host
+22_Oct_2019 13:19:19 : [Inform] : proc_msg()                : live_app_flag false Need to close every things
+22_Oct_2019 13:19:19 : [Report] : proc_mdas_thread          : Problems in main function need to close
+22_Oct_2019 13:19:21 : [Inform] : proc_modem_thread()       : Modem thread error, returning from here
+22_Oct_2019 13:19:23 : [Inform] : proc_mdas_thread          : KeyboardInterrupt or Problems in mdas_thread need to close in  read , Error : 0

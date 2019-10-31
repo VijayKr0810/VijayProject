@@ -1,0 +1,3 @@
+22_Oct_2019 13:24:59 : [Inform] : read_basic_cfg()          : Basic Config read success
+22_Oct_2019 13:25:00 : [Inform] : mdas_db_init()            : Mysql Init done
+22_Oct_2019 13:25:00 : [Inform] : create_all_table()        : Billing table created : BILLING_888889000000019

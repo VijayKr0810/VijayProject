@@ -1,0 +1,9 @@
+22_Oct_2019 13:24:51 : [Inform] : read_basic_cfg()          : Basic Config read success
+22_Oct_2019 13:24:52 : [Inform] : mdas_db_init()            : Mysql Init done
+22_Oct_2019 13:24:52 : [Inform] : create_all_table()        : Billing table created : BILLING_888889000000018
+22_Oct_2019 13:24:52 : [Inform] : create_all_table()        : Event table created : EVENT_888889000000018
+22_Oct_2019 13:24:52 : [Inform] : create_all_table()        : Instantanious table created : INST_888889000000018
+22_Oct_2019 13:24:52 : [Inform] : create_all_table()        : Load Survey table created : LOAD_SURVEY_888889000000018
+22_Oct_2019 13:24:52 : [Inform] : modem_sock_init()         : connected  to Host : 122.166.196.34 port : 8715
+22_Oct_2019 13:24:53 : [Report] : sock_init()               : Create Socket error : timed out
+22_Oct_2019 13:24:53 : [Report] : main()                    : Mdas Socket Initilization failed

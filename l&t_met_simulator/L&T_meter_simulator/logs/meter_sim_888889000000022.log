@@ -1,0 +1,952 @@
+22_Oct_2019 12:42:11 : [Inform] : read_basic_cfg()          : Basic Config read success
+22_Oct_2019 12:42:11 : [Inform] : mdas_db_init()            : Mysql Init done
+22_Oct_2019 12:42:11 : [Inform] : create_all_table()        : Billing table created : BILLING_888889000000022
+22_Oct_2019 12:42:11 : [Inform] : create_all_table()        : Event table created : EVENT_888889000000022
+22_Oct_2019 12:42:11 : [Inform] : create_all_table()        : Instantanious table created : INST_888889000000022
+22_Oct_2019 12:42:11 : [Inform] : create_all_table()        : Load Survey table created : LOAD_SURVEY_888889000000022
+22_Oct_2019 12:42:11 : [Inform] : modem_sock_init()         : connected  to Host : 122.166.196.34 port : 8715
+22_Oct_2019 12:42:11 : [Inform] : sock_init()               : connected  to Host : 122.166.196.34 port : 8710
+22_Oct_2019 12:42:11 : [Inform] : main()                    : Recvd imei : 888889000000022, MeterSerNum : MET_SIM_22
+22_Oct_2019 12:42:11 : [Inform] : proc_mdas_thread          : Sending 1st time imei num on mdas port,
+22_Oct_2019 12:42:16 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 12:42:18 : [Report] : send_power_on_msg()       : Send Power On msg resp len : 123
+22_Oct_2019 12:42:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 25
+22_Oct_2019 12:42:18 : [Inform] : proc_modem_cmd()          : Recv Command : TIME:19/10/22,12:42:13+22
+22_Oct_2019 12:42:19 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:42:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:42:20 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:42:23 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:42:24 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:42:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:42:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:42:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:42:29 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:42:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:42:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:42:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:42:38 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:42:39 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:42:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:42:44 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:42:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:42:44 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:42:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:42:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:42:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:42:53 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:42:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:42:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:42:56 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 9
+22_Oct_2019 12:42:56 : [Inform] : 7e a0 7 3 41 53 56 a2 7e 
+22_Oct_2019 12:42:56 : [Inform] : send_snrm_resp()          : Sending Disc frame response, Len : 32
+22_Oct_2019 12:42:56 : [Inform] : 7E A0 1E 41 03 73 8E 7F 81 80 12 05 01 80 06 01 
+22_Oct_2019 12:42:56 : [Inform] : 80 07 04 00 00 00 01 08 04 00 00 00 01 53 3B 7E 
+22_Oct_2019 12:42:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:42:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:42:59 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:43:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:43:04 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:08 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 10
+22_Oct_2019 12:43:08 : [Inform] : 7e a0 7 3 41 93 5a 64 7e f 
+22_Oct_2019 12:43:08 : [Inform] : proc_recv_tcp_msg()       : Last Byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:08 : [Inform] : send_snrm_resp()          : Sending Snrm frame response, Len : 32
+22_Oct_2019 12:43:08 : [Inform] : 7E A0 1E 41 03 73 8E 7F 81 80 12 05 01 80 06 01 
+22_Oct_2019 12:43:08 : [Inform] : 80 07 04 00 00 00 01 08 04 00 00 00 01 53 3B 7E 
+22_Oct_2019 12:43:09 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:09 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:14 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 67
+22_Oct_2019 12:43:14 : [Inform] : f 7e a0 40 3 41 10 5f 93 e6 e6 0 60 32 a1 9 
+22_Oct_2019 12:43:14 : [Inform] : 6 7 60 85 74 5 8 1 1 8a 2 7 80 8b 7 60 
+22_Oct_2019 12:43:14 : [Inform] : 85 74 5 8 2 1 ac 6 80 4 6c 6e 74 31 be 10 
+22_Oct_2019 12:43:14 : [Inform] : 4 e 1 0 0 0 6 5f 1f 4 0 0 1e 1d ff ff 
+22_Oct_2019 12:43:14 : [Inform] : 39 24 7e 
+22_Oct_2019 12:43:14 : [Inform] : proc_recv_tcp_msg()       : 1st byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:14 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 906 attribute : FFFF
+22_Oct_2019 12:43:14 : [Inform] : proc_recv_tcp_msg()       : AARQ frame Qry
+22_Oct_2019 12:43:14 : [Inform] : proc_recv_tcp_msg()       : AARQ frame Qry, Pass Len : 4 MeterPassLen : 8 MeterPass : 6C6E7431
+22_Oct_2019 12:43:14 : [Inform] : send_aare_frame()         : Sending Aarq response, Len : 57
+22_Oct_2019 12:43:14 : [Inform] : 7E A0 3A 41 03 11 25 C2 E6 E7 00 61 29 A1 09 06 
+22_Oct_2019 12:43:14 : [Inform] : 07 60 85 74 05 08 01 01 A2 03 02 01 00 A3 05 A1 
+22_Oct_2019 12:43:14 : [Inform] : 03 02 01 00 BE 10 04 0E 08 00 06 5F 1F 04 00 00 
+22_Oct_2019 12:43:14 : [Inform] : 10 1C 04 00 00 07 06 94 7E 
+22_Oct_2019 12:43:17 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:43:19 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:23 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 28
+22_Oct_2019 12:43:23 : [Inform] : f 7e a0 19 3 41 12 38 9c e6 e6 0 c0 1 81 0 
+22_Oct_2019 12:43:23 : [Inform] : 1 0 0 60 1 0 ff 2 0 8c 6d 7e 
+22_Oct_2019 12:43:23 : [Inform] : proc_recv_tcp_msg()       : 1st byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:23 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 1 attribute : 2
+22_Oct_2019 12:43:23 : [Inform] : proc_recv_tcp_msg()       : I frame Name plate Info qry
+22_Oct_2019 12:43:23 : [Inform] : send_name_plate_resp()    : Sending Name plate info response, Len : 32
+22_Oct_2019 12:43:23 : [Inform] : 7E A0 1E 41 03 11 9A 3F E6 E7 00 C4 01 81 00 09 
+22_Oct_2019 12:43:23 : [Inform] : 0C 4D 45 54 5F 53 49 4D 5F 32 32 20 20 54 EF 7E 
+22_Oct_2019 12:43:24 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:29 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:43:32 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 28
+22_Oct_2019 12:43:32 : [Inform] : 7e a0 19 3 41 14 e f9 e6 e6 0 c0 1 81 0 1 
+22_Oct_2019 12:43:32 : [Inform] : 0 0 60 1 1 ff 2 0 37 71 7e f 
+22_Oct_2019 12:43:32 : [Inform] : proc_recv_tcp_msg()       : Last Byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:32 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 1 attribute : 2
+22_Oct_2019 12:43:32 : [Inform] : proc_recv_tcp_msg()       : I frame Name plate Info qry
+22_Oct_2019 12:43:32 : [Inform] : send_name_plate_resp()    : Sending Name plate info response, Len : 23
+22_Oct_2019 12:43:32 : [Inform] : 7E A0 15 41 03 11 8F FF E6 E7 00 C4 01 81 00 09 
+22_Oct_2019 12:43:32 : [Inform] : 03 43 4D 53 58 EF 7E 
+22_Oct_2019 12:43:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:38 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:43:39 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:41 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 27
+22_Oct_2019 12:43:41 : [Inform] : 7e a0 19 3 41 16 1c da e6 e6 0 c0 1 81 0 1 
+22_Oct_2019 12:43:41 : [Inform] : 1 0 0 2 0 ff 2 0 4e 76 7e 
+22_Oct_2019 12:43:41 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 1 attribute : 2
+22_Oct_2019 12:43:41 : [Inform] : proc_recv_tcp_msg()       : I frame Name plate Info qry
+22_Oct_2019 12:43:41 : [Inform] : send_name_plate_resp()    : Sending Name plate info response, Len : 28
+22_Oct_2019 12:43:41 : [Inform] : 7E A0 1A 41 03 11 76 4D E6 E7 00 C4 01 81 00 09 
+22_Oct_2019 12:43:41 : [Inform] : 08 43 4D 53 31 39 2E 30 30 8E B1 7E 
+22_Oct_2019 12:43:44 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:44 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:43:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:43:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:50 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 27
+22_Oct_2019 12:43:50 : [Inform] : 7e a0 19 3 41 18 62 33 e6 e6 0 c0 1 81 0 1 
+22_Oct_2019 12:43:50 : [Inform] : 0 0 5e 5b 9 ff 2 0 57 53 7e 
+22_Oct_2019 12:43:50 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 1 attribute : 2
+22_Oct_2019 12:43:50 : [Inform] : proc_recv_tcp_msg()       : I frame Name plate Info qry
+22_Oct_2019 12:43:50 : [Inform] : send_name_plate_resp()    : Sending Name plate info response, Len : 20
+22_Oct_2019 12:43:50 : [Inform] : 7E A0 12 41 03 11 AE A8 E6 E7 00 C4 01 81 00 11 
+22_Oct_2019 12:43:51 : [Inform] : 02 BE 78 7E 
+22_Oct_2019 12:43:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:43:54 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:43:57 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 27
+22_Oct_2019 12:43:57 : [Inform] : 7e a0 19 3 41 1a 70 10 e6 e6 0 c0 1 81 0 1 
+22_Oct_2019 12:43:57 : [Inform] : 1 0 0 4 2 ff 2 0 a0 74 7e 
+22_Oct_2019 12:43:57 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 1 attribute : 2
+22_Oct_2019 12:43:57 : [Inform] : proc_recv_tcp_msg()       : I frame Name plate Info qry
+22_Oct_2019 12:43:57 : [Inform] : send_name_plate_resp()    : Sending Name plate info response, Len : 23
+22_Oct_2019 12:43:57 : [Inform] : 7E A0 15 41 03 11 8F FF E6 E7 00 C4 01 81 00 17 
+22_Oct_2019 12:43:57 : [Inform] : 3F 80 00 00 98 92 7E 
+22_Oct_2019 12:43:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:43:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:00 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:03 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:04 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:06 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 27
+22_Oct_2019 12:44:06 : [Inform] : 7e a0 19 3 41 1c 46 75 e6 e6 0 c0 1 81 0 1 
+22_Oct_2019 12:44:06 : [Inform] : 1 0 0 4 3 ff 2 0 1b 68 7e 
+22_Oct_2019 12:44:06 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 1 attribute : 2
+22_Oct_2019 12:44:06 : [Inform] : proc_recv_tcp_msg()       : I frame Name plate Info qry
+22_Oct_2019 12:44:06 : [Inform] : send_name_plate_resp()    : Sending Name plate info response, Len : 23
+22_Oct_2019 12:44:06 : [Inform] : 7E A0 15 41 03 11 8F FF E6 E7 00 C4 01 81 00 17 
+22_Oct_2019 12:44:06 : [Inform] : 3F 80 00 00 98 92 7E 
+22_Oct_2019 12:44:09 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:09 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:09 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:12 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:15 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 27
+22_Oct_2019 12:44:15 : [Inform] : 7e a0 19 3 41 1e 54 56 e6 e6 0 c0 1 81 0 8 
+22_Oct_2019 12:44:15 : [Inform] : 0 0 1 0 0 ff 2 0 65 d7 7e 
+22_Oct_2019 12:44:15 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 8 attribute : 2
+22_Oct_2019 12:44:15 : [Inform] : proc_recv_tcp_msg()       : I frame date time qry
+22_Oct_2019 12:44:15 : [Inform] : send_date_time_resp()     : Sending date time response, Len : 32
+22_Oct_2019 12:44:15 : [Inform] : 7E A0 1E 41 03 11 9A 3F E6 E7 00 C4 01 81 00 09 
+22_Oct_2019 12:44:15 : [Inform] : 0C 07 E3 0A 16 01 0C 2C 0F FF 01 4A 00 03 77 7E 
+22_Oct_2019 12:44:19 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:19 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:22 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 28
+22_Oct_2019 12:44:22 : [Inform] : 7e a0 19 3 41 10 2a bf e6 e6 0 c0 1 81 0 7 
+22_Oct_2019 12:44:22 : [Inform] : 0 0 63 62 0 ff 5 0 99 34 7e f 
+22_Oct_2019 12:44:22 : [Inform] : proc_recv_tcp_msg()       : Last Byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:22 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 5
+22_Oct_2019 12:44:22 : [Inform] : proc_recv_tcp_msg()       : I frame Event entry data value qry
+22_Oct_2019 12:44:22 : [Inform] : proc_event_rel_qry()      : Sending  Event order entry response, Len : 20
+22_Oct_2019 12:44:22 : [Inform] : 7E A0 12 41 03 11 AE A8 E6 E7 00 C4 01 81 00 16 
+22_Oct_2019 12:44:22 : [Inform] : 01 2D 07 7E 
+22_Oct_2019 12:44:24 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:28 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:31 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 27
+22_Oct_2019 12:44:31 : [Inform] : 7e a0 19 3 41 12 38 9c e6 e6 0 c0 1 81 0 7 
+22_Oct_2019 12:44:31 : [Inform] : 1 0 5e 5b 0 ff 2 0 94 8f 7e 
+22_Oct_2019 12:44:31 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 2
+22_Oct_2019 12:44:31 : [Inform] : proc_recv_tcp_msg()       : I frame  scalar Val By Group qry
+22_Oct_2019 12:44:31 : [Inform] : update_inst_val_table()   : Inst 1 row updated
+22_Oct_2019 12:44:31 : [Inform] : proc_all_val_by_grp()     : Sending Inst val by group info response, Len : 165
+22_Oct_2019 12:44:31 : [Inform] : 7E A0 A3 41 03 11 89 D5 E6 E7 00 C4 01 81 00 01 
+22_Oct_2019 12:44:31 : [Inform] : 01 02 19 09 0C 07 E3 0A 16 01 0C 2C 1F FF 01 4A 
+22_Oct_2019 12:44:31 : [Inform] : 00 05 00 00 27 1A 05 00 00 27 0F 05 00 00 27 17 
+22_Oct_2019 12:44:31 : [Inform] : 05 00 09 AA 69 05 00 09 AF 4D 05 00 09 9E 7E 05 
+22_Oct_2019 12:44:31 : [Inform] : 00 00 27 1A 05 00 00 27 1A 05 00 00 27 09 05 00 
+22_Oct_2019 12:44:31 : [Inform] : 00 27 12 05 00 07 A0 D9 05 00 00 5B 12 05 00 00 
+22_Oct_2019 12:44:31 : [Inform] : 5D 5B 05 00 00 55 D1 05 00 00 27 10 09 0C 07 E3 
+22_Oct_2019 12:44:31 : [Inform] : 0A 01 01 00 00 00 FF 01 4A 00 05 00 00 28 A6 05 
+22_Oct_2019 12:44:31 : [Inform] : 00 00 28 A6 05 00 00 28 A6 05 00 00 28 A6 05 00 
+22_Oct_2019 12:44:31 : [Inform] : 00 C3 50 05 00 00 C3 50 05 00 00 C3 50 05 00 00 
+22_Oct_2019 12:44:31 : [Inform] : C3 50 55 79 7E 
+22_Oct_2019 12:44:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:34 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:37 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:43 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:44 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:49 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:52 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:44:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:55 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 78
+22_Oct_2019 12:44:55 : [Inform] : 7e a0 4c 3 41 14 4f 42 e6 e6 0 c0 1 c1 0 7 
+22_Oct_2019 12:44:55 : [Inform] : 1 0 63 1 0 ff 2 1 1 2 4 2 4 12 0 8 
+22_Oct_2019 12:44:55 : [Inform] : 9 6 0 0 1 0 0 ff f 2 12 0 0 9 c 7 
+22_Oct_2019 12:44:55 : [Inform] : e3 a 13 ff f 0 0 ff fe b6 0 9 c 7 e3 a 
+22_Oct_2019 12:44:55 : [Inform] : 16 ff c 2c 0 ff fe b6 0 1 0 f7 3 7e 
+22_Oct_2019 12:44:55 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 1
+22_Oct_2019 12:44:55 : [Inform] : proc_recv_tcp_msg()       : I frame Load survey data value qry
+22_Oct_2019 12:44:55 : [Inform] : proc_ls_data_block()      : recvd Block data qry, St dt : 2019-10-19 15:00 end dt : 2019-10-22 12:44 NumBlock : 279
+22_Oct_2019 12:44:55 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 279 block data for date time : 10_19_2019 15:00
+22_Oct_2019 12:44:55 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:44:55 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 278 block data for date time : 10_19_2019 15:15
+22_Oct_2019 12:44:56 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:44:56 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 277 block data for date time : 10_19_2019 15:30
+22_Oct_2019 12:44:56 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:44:56 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 276 block data for date time : 10_19_2019 15:45
+22_Oct_2019 12:44:56 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:44:56 : [Inform] : send_blk_data_resp()      : Sending  LS blk_dx : 275 block data for date time : 10_19_2019 15:60value response, Len : 352
+22_Oct_2019 12:44:56 : [Inform] : 7E A0 5E 41 03 11 2D 29 E6 E7 00 C4 02 81 00 00 
+22_Oct_2019 12:44:56 : [Inform] : 00 00 01 00 82 03 BC 01 FF 02 0E 09 0C 07 E3 0A 
+22_Oct_2019 12:44:56 : [Inform] : 13 01 0F 00 00 FF FF 4A 00 05 00 00 26 C5 05 00 
+22_Oct_2019 12:44:56 : [Inform] : 00 26 D4 05 00 00 27 01 05 00 09 AA 6E 05 00 09 
+22_Oct_2019 12:44:56 : [Inform] : A9 E9 05 00 09 AF E2 05 00 07 A1 17 05 00 00 55 
+22_Oct_2019 12:44:56 : [Inform] : 67 05 00 00 51 B9 05 00 00 51 74 05 00 00 5C 5D 
+22_Oct_2019 12:44:56 : [Inform] : 05 00 00 5A 01 05 00 00 56 F2 02 0E 09 0C 07 E3 
+22_Oct_2019 12:44:56 : [Inform] : 0A 13 01 0F 0F 00 FF FF 4A 00 05 00 00 26 EC 05 
+22_Oct_2019 12:44:56 : [Inform] : 00 00 26 B8 05 00 00 27 6F 05 00 09 AA 50 05 00 
+22_Oct_2019 12:44:56 : [Inform] : 09 AF 00 05 00 09 9E E3 05 00 07 A0 E4 05 00 00 
+22_Oct_2019 12:44:56 : [Inform] : 55 BA 05 00 00 60 7B 05 00 00 59 94 05 00 00 58 
+22_Oct_2019 12:44:56 : [Inform] : 7C 05 00 00 5F 5B 05 00 00 4E E0 02 0E 09 0C 07 
+22_Oct_2019 12:44:56 : [Inform] : E3 0A 13 01 0F 1E 00 FF FF 4A 00 05 00 00 27 35 
+22_Oct_2019 12:44:56 : [Inform] : 05 00 00 27 0B 05 00 00 27 5D 05 00 09 AB 1F 05 
+22_Oct_2019 12:44:56 : [Inform] : 00 09 AB 22 05 00 09 A0 63 05 00 07 A1 28 05 00 
+22_Oct_2019 12:44:56 : [Inform] : 00 5D F9 05 00 00 53 F5 05 00 00 5B 2C 05 00 00 
+22_Oct_2019 12:44:56 : [Inform] : 51 8A 05 00 00 60 13 05 00 00 55 AB 02 0E 09 0C 
+22_Oct_2019 12:44:56 : [Inform] : 07 E3 0A 13 01 0F 2D 00 FF FF 4A 00 05 00 00 26 
+22_Oct_2019 12:44:56 : [Inform] : F2 05 00 00 26 DF 05 00 00 26 FC 05 00 09 9F F1 
+22_Oct_2019 12:44:56 : [Inform] : 05 00 09 A7 E3 05 00 09 AA 8A 05 00 07 A0 FD 05 
+22_Oct_2019 12:44:56 : [Inform] : 00 00 4F 45 05 00 00 58 60 05 00 00 50 1B 05 00 
+22_Oct_2019 12:44:56 : [Inform] : 00 4E BE 05 00 00 5C 37 05 00 00 5A C0 10 05 7E 
+22_Oct_2019 12:44:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:44:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:44:59 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:45:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:45:04 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:08 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:45:09 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:09 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:17 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:17 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:19 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 12:45:19 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 12:45:24 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:29 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:45:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:45:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:35 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 21
+22_Oct_2019 12:45:35 : [Inform] : 7e a0 13 3 41 16 b2 6 e6 e6 0 c0 2 81 0 0 
+22_Oct_2019 12:45:35 : [Inform] : 0 1 73 7f 7e 
+22_Oct_2019 12:45:35 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 275 block data for date time : 10_19_2019 15:60
+22_Oct_2019 12:45:36 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:45:36 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 274 block data for date time : 10_19_2019 16:15
+22_Oct_2019 12:45:36 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:45:36 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 273 block data for date time : 10_19_2019 16:30
+22_Oct_2019 12:45:36 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:45:36 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 272 block data for date time : 10_19_2019 16:45
+22_Oct_2019 12:45:36 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:45:36 : [Inform] : send_blk_data_resp()      : Sending  LS blk_dx : 271 block data for date time : 10_19_2019 16:60value response, Len : 350
+22_Oct_2019 12:45:36 : [Inform] : 7E A0 5C 41 03 11 5B 10 E6 E7 00 C4 02 81 00 00 
+22_Oct_2019 12:45:36 : [Inform] : 00 00 02 00 82 03 BC 02 0E 09 0C 07 E3 0A 13 01 
+22_Oct_2019 12:45:36 : [Inform] : 10 00 00 FF FF 4A 00 05 00 00 27 4E 05 00 00 26 
+22_Oct_2019 12:45:36 : [Inform] : B3 05 00 00 26 C8 05 00 09 AC D2 05 00 09 9F 6B 
+22_Oct_2019 12:45:36 : [Inform] : 05 00 09 B0 0B 05 00 07 A1 21 05 00 00 57 FA 05 
+22_Oct_2019 12:45:36 : [Inform] : 00 00 52 01 05 00 00 5D 5A 05 00 00 50 2A 05 00 
+22_Oct_2019 12:45:36 : [Inform] : 00 57 8B 05 00 00 50 91 02 0E 09 0C 07 E3 0A 13 
+22_Oct_2019 12:45:36 : [Inform] : 01 10 0F 00 FF FF 4A 00 05 00 00 26 D5 05 00 00 
+22_Oct_2019 12:45:36 : [Inform] : 26 C4 05 00 00 27 14 05 00 09 A7 53 05 00 09 A1 
+22_Oct_2019 12:45:36 : [Inform] : B1 05 00 09 AD 33 05 00 07 A1 14 05 00 00 61 46 
+22_Oct_2019 12:45:36 : [Inform] : 05 00 00 60 93 05 00 00 56 10 05 00 00 4F 77 05 
+22_Oct_2019 12:45:36 : [Inform] : 00 00 5A 71 05 00 00 59 F1 02 0E 09 0C 07 E3 0A 
+22_Oct_2019 12:45:36 : [Inform] : 13 01 10 1E 00 FF FF 4A 00 05 00 00 26 E3 05 00 
+22_Oct_2019 12:45:36 : [Inform] : 00 26 DF 05 00 00 27 35 05 00 09 AD 30 05 00 09 
+22_Oct_2019 12:45:36 : [Inform] : AD F7 05 00 09 A6 45 05 00 07 A1 16 05 00 00 5D 
+22_Oct_2019 12:45:36 : [Inform] : 86 05 00 00 55 07 05 00 00 5F 1A 05 00 00 54 EC 
+22_Oct_2019 12:45:36 : [Inform] : 05 00 00 52 96 05 00 00 51 87 02 0E 09 0C 07 E3 
+22_Oct_2019 12:45:36 : [Inform] : 0A 13 01 10 2D 00 FF FF 4A 00 05 00 00 27 5D 05 
+22_Oct_2019 12:45:36 : [Inform] : 00 00 26 AE 05 00 00 27 1C 05 00 09 9F F9 05 00 
+22_Oct_2019 12:45:36 : [Inform] : 09 A3 97 05 00 09 9E B4 05 00 07 A0 E2 05 00 00 
+22_Oct_2019 12:45:36 : [Inform] : 55 BE 05 00 00 57 39 05 00 00 52 1C 05 00 00 60 
+22_Oct_2019 12:45:36 : [Inform] : D3 05 00 00 54 81 05 00 00 60 01 9D 9C 7E 
+22_Oct_2019 12:45:36 : [Inform] : proc_recv_tcp_msg()       : Recv GetNextReqst. Sent Resp for Load survey Block data
+22_Oct_2019 12:45:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:40 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:45:43 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:45:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:49 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:45:52 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:45:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:45:58 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:45:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:45:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:04 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:04 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:46:07 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:46:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:09 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:46:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:19 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:19 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:46:22 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:46:24 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:25 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 21
+22_Oct_2019 12:46:25 : [Inform] : 7e a0 13 3 41 16 b2 6 e6 e6 0 c0 2 81 0 0 
+22_Oct_2019 12:46:25 : [Inform] : 0 1 73 7f 7e 
+22_Oct_2019 12:46:25 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 271 block data for date time : 10_19_2019 16:60
+22_Oct_2019 12:46:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:29 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:46:29 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 270 block data for date time : 10_19_2019 17:15
+22_Oct_2019 12:46:29 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:46:29 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 269 block data for date time : 10_19_2019 17:30
+22_Oct_2019 12:46:29 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:46:29 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 268 block data for date time : 10_19_2019 17:45
+22_Oct_2019 12:46:29 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:46:29 : [Inform] : send_blk_data_resp()      : Sending  LS blk_dx : 267 block data for date time : 10_19_2019 17:60value response, Len : 350
+22_Oct_2019 12:46:29 : [Inform] : 7E A0 5C 41 03 11 5B 10 E6 E7 00 C4 02 81 00 00 
+22_Oct_2019 12:46:29 : [Inform] : 00 00 03 00 82 03 BC 02 0E 09 0C 07 E3 0A 13 01 
+22_Oct_2019 12:46:29 : [Inform] : 11 00 00 FF FF 4A 00 05 00 00 26 EA 05 00 00 27 
+22_Oct_2019 12:46:29 : [Inform] : 25 05 00 00 27 44 05 00 09 A3 13 05 00 09 AD 33 
+22_Oct_2019 12:46:29 : [Inform] : 05 00 09 AE B1 05 00 07 A0 D7 05 00 00 59 62 05 
+22_Oct_2019 12:46:29 : [Inform] : 00 00 5E 6D 05 00 00 5C 2E 05 00 00 58 FC 05 00 
+22_Oct_2019 12:46:29 : [Inform] : 00 50 A9 05 00 00 5F 19 02 0E 09 0C 07 E3 0A 13 
+22_Oct_2019 12:46:29 : [Inform] : 01 11 0F 00 FF FF 4A 00 05 00 00 27 5F 05 00 00 
+22_Oct_2019 12:46:29 : [Inform] : 27 38 05 00 00 26 AE 05 00 09 A7 2D 05 00 09 A1 
+22_Oct_2019 12:46:29 : [Inform] : 93 05 00 09 A6 6D 05 00 07 A0 F5 05 00 00 4E EB 
+22_Oct_2019 12:46:29 : [Inform] : 05 00 00 61 9D 05 00 00 5D 1C 05 00 00 54 C4 05 
+22_Oct_2019 12:46:29 : [Inform] : 00 00 59 FB 05 00 00 51 9C 02 0E 09 0C 07 E3 0A 
+22_Oct_2019 12:46:29 : [Inform] : 13 01 11 1E 00 FF FF 4A 00 05 00 00 26 D1 05 00 
+22_Oct_2019 12:46:29 : [Inform] : 00 26 D3 05 00 00 27 64 05 00 09 A5 55 05 00 09 
+22_Oct_2019 12:46:29 : [Inform] : AE 63 05 00 09 A5 54 05 00 07 A0 C6 05 00 00 4F 
+22_Oct_2019 12:46:29 : [Inform] : 02 05 00 00 4E 35 05 00 00 4E 64 05 00 00 60 BE 
+22_Oct_2019 12:46:29 : [Inform] : 05 00 00 61 76 05 00 00 5E 68 02 0E 09 0C 07 E3 
+22_Oct_2019 12:46:29 : [Inform] : 0A 13 01 11 2D 00 FF FF 4A 00 05 00 00 26 CE 05 
+22_Oct_2019 12:46:29 : [Inform] : 00 00 26 F2 05 00 00 27 57 05 00 09 A8 EA 05 00 
+22_Oct_2019 12:46:29 : [Inform] : 09 AE 22 05 00 09 AA 88 05 00 07 A0 D5 05 00 00 
+22_Oct_2019 12:46:29 : [Inform] : 5A 88 05 00 00 5F D2 05 00 00 5C 13 05 00 00 5E 
+22_Oct_2019 12:46:29 : [Inform] : BC 05 00 00 5F 37 05 00 00 5B 6D B2 7F 7E 
+22_Oct_2019 12:46:29 : [Inform] : proc_recv_tcp_msg()       : Recv GetNextReqst. Sent Resp for Load survey Block data
+22_Oct_2019 12:46:33 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 48
+22_Oct_2019 12:46:33 : [Inform] : f 7e a0 2c 3 41 18 c7 11 e6 e6 0 c0 1 81 0 
+22_Oct_2019 12:46:33 : [Inform] : 7 1 0 62 1 0 ff 2 1 2 2 4 6 0 0 0 
+22_Oct_2019 12:46:33 : [Inform] : 1 6 0 0 0 2 12 0 1 12 0 0 10 6 7e f 
+22_Oct_2019 12:46:33 : [Inform] : 
+22_Oct_2019 12:46:33 : [Inform] : proc_recv_tcp_msg()       : 1st byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:33 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 0
+22_Oct_2019 12:46:33 : [Inform] : proc_recv_tcp_msg()       : I frame Event value qry
+22_Oct_2019 12:46:33 : [Inform] : proc_billing_value_qry()  : Sending  Billing value response, Len : 946
+22_Oct_2019 12:46:33 : [Inform] : 7E A0 B0 41 03 11 E5 33 E6 E7 00 C4 01 81 00 01 
+22_Oct_2019 12:46:33 : [Inform] : 02 02 3A 09 0C 07 E3 0A 16 01 0C 2E 00 FF 01 4A 
+22_Oct_2019 12:46:33 : [Inform] : 00 05 00 00 26 F3 05 00 00 60 FA 05 00 00 51 48 
+22_Oct_2019 12:46:33 : [Inform] : 05 00 00 5D 40 05 00 00 58 BB 05 00 00 5C 20 05 
+22_Oct_2019 12:46:33 : [Inform] : 00 00 5E 32 05 00 00 5E 57 05 00 00 51 50 05 00 
+22_Oct_2019 12:46:33 : [Inform] : 00 61 9D 05 00 00 5C A8 05 00 00 50 C0 05 00 00 
+22_Oct_2019 12:46:33 : [Inform] : 59 49 05 00 00 5B 61 05 00 00 51 1E 05 00 00 53 
+22_Oct_2019 12:46:33 : [Inform] : A4 05 00 00 61 70 05 00 00 61 48 05 00 00 60 80 
+22_Oct_2019 12:46:33 : [Inform] : 05 00 00 59 A0 05 00 00 57 7A 05 00 00 51 A5 09 
+22_Oct_2019 12:46:33 : [Inform] : 0C 07 E3 0A 15 01 00 00 00 FF 01 4A 00 05 00 00 
+22_Oct_2019 12:46:33 : [Inform] : 52 12 09 0C 07 E3 0A 15 01 00 00 00 FF 01 4A 00 
+22_Oct_2019 12:46:33 : [Inform] : 05 00 00 52 7A 09 0C 07 E3 0A 15 01 03 00 00 FF 
+22_Oct_2019 12:46:33 : [Inform] : 01 4A 00 05 00 00 5F 5C 09 0C 07 E3 0A 15 01 06 
+22_Oct_2019 12:46:33 : [Inform] : 00 00 FF 01 4A 00 05 00 00 5A DF 09 0C 07 E3 0A 
+22_Oct_2019 12:46:33 : [Inform] : 15 01 09 00 00 FF 01 4A 00 05 00 00 5A 97 09 0C 
+22_Oct_2019 12:46:33 : [Inform] : 07 E3 0A 15 01 0C 00 00 FF 01 4A 00 05 00 00 5F 
+22_Oct_2019 12:46:33 : [Inform] : 11 09 0C 07 E3 0A 15 01 0F 00 00 FF 01 4A 00 05 
+22_Oct_2019 12:46:33 : [Inform] : 00 00 56 95 09 0C 07 E3 0A 15 01 12 00 00 FF 01 
+22_Oct_2019 12:46:33 : [Inform] : 4A 00 05 00 00 5E 19 09 0C 07 E3 0A 15 01 15 00 
+22_Oct_2019 12:46:33 : [Inform] : 00 FF 01 4A 00 05 00 00 50 F7 09 0C 07 E3 0A 15 
+22_Oct_2019 12:46:33 : [Inform] : 01 00 00 00 FF 01 4A 00 05 00 00 53 FC 09 0C 07 
+22_Oct_2019 12:46:33 : [Inform] : E3 0A 15 01 00 00 00 FF 01 4A 00 05 00 00 55 18 
+22_Oct_2019 12:46:33 : [Inform] : 09 0C 07 E3 0A 15 01 03 00 00 FF 01 4A 00 05 00 
+22_Oct_2019 12:46:33 : [Inform] : 00 4F 70 09 0C 07 E3 0A 15 01 06 00 00 FF 01 4A 
+22_Oct_2019 12:46:33 : [Inform] : 00 05 00 00 53 56 09 0C 07 E3 0A 15 01 09 00 00 
+22_Oct_2019 12:46:33 : [Inform] : FF 01 4A 00 05 00 00 56 ED 09 0C 07 E3 0A 15 01 
+22_Oct_2019 12:46:33 : [Inform] : 0C 00 00 FF 01 4A 00 05 00 00 57 A7 09 0C 07 E3 
+22_Oct_2019 12:46:33 : [Inform] : 0A 15 01 0F 00 00 FF 01 4A 00 05 00 00 53 AF 09 
+22_Oct_2019 12:46:33 : [Inform] : 0C 07 E3 0A 15 01 12 00 00 FF 01 4A 00 05 00 00 
+22_Oct_2019 12:46:33 : [Inform] : 61 04 09 0C 07 E3 0A 15 01 15 00 00 FF 01 4A 00 
+22_Oct_2019 12:46:33 : [Inform] : 02 3A 09 0C 07 E3 09 16 01 0C 2E 00 FF 01 4A 00 
+22_Oct_2019 12:46:33 : [Inform] : 05 00 00 24 7B 05 00 00 57 33 05 00 00 54 58 05 
+22_Oct_2019 12:46:33 : [Inform] : 00 00 54 13 05 00 00 51 9A 05 00 00 5E 45 05 00 
+22_Oct_2019 12:46:33 : [Inform] : 00 5D 18 05 00 00 5F 39 05 00 00 5E 68 05 00 00 
+22_Oct_2019 12:46:33 : [Inform] : 59 7F 05 00 00 51 D3 05 00 00 56 EB 05 00 00 56 
+22_Oct_2019 12:46:33 : [Inform] : 4F 05 00 00 53 A0 05 00 00 5F 58 05 00 00 5E FF 
+22_Oct_2019 12:46:33 : [Inform] : 05 00 00 57 10 05 00 00 54 C3 05 00 00 54 D3 05 
+22_Oct_2019 12:46:33 : [Inform] : 00 00 58 60 05 00 00 5B C0 05 00 00 55 8D 09 0C 
+22_Oct_2019 12:46:33 : [Inform] : 07 E3 09 15 01 00 00 00 FF 01 4A 00 05 00 00 5D 
+22_Oct_2019 12:46:33 : [Inform] : 80 09 0C 07 E3 09 15 01 00 00 00 FF 01 4A 00 05 
+22_Oct_2019 12:46:33 : [Inform] : 00 00 58 D4 09 0C 07 E3 09 15 01 03 00 00 FF 01 
+22_Oct_2019 12:46:33 : [Inform] : 4A 00 05 00 00 53 F4 09 0C 07 E3 09 15 01 06 00 
+22_Oct_2019 12:46:33 : [Inform] : 00 FF 01 4A 00 05 00 00 4F 9C 09 0C 07 E3 09 15 
+22_Oct_2019 12:46:33 : [Inform] : 01 09 00 00 FF 01 4A 00 05 00 00 55 41 09 0C 07 
+22_Oct_2019 12:46:33 : [Inform] : E3 09 15 01 0C 00 00 FF 01 4A 00 05 00 00 5E 91 
+22_Oct_2019 12:46:33 : [Inform] : 09 0C 07 E3 09 15 01 0F 00 00 FF 01 4A 00 05 00 
+22_Oct_2019 12:46:33 : [Inform] : 00 5C 13 09 0C 07 E3 09 15 01 12 00 00 FF 01 4A 
+22_Oct_2019 12:46:33 : [Inform] : 00 05 00 00 5D 07 09 0C 07 E3 09 15 01 15 00 00 
+22_Oct_2019 12:46:33 : [Inform] : FF 01 4A 00 05 00 00 57 FF 09 0C 07 E3 09 15 01 
+22_Oct_2019 12:46:33 : [Inform] : 00 00 00 FF 01 4A 00 05 00 00 59 9D 09 0C 07 E3 
+22_Oct_2019 12:46:33 : [Inform] : 09 15 01 00 00 00 FF 01 4A 00 05 00 00 59 0A 09 
+22_Oct_2019 12:46:33 : [Inform] : 0C 07 E3 09 15 01 03 00 00 FF 01 4A 00 05 00 00 
+22_Oct_2019 12:46:33 : [Inform] : 5D CB 09 0C 07 E3 09 15 01 06 00 00 FF 01 4A 00 
+22_Oct_2019 12:46:33 : [Inform] : 05 00 00 51 9E 09 0C 07 E3 09 15 01 09 00 00 FF 
+22_Oct_2019 12:46:33 : [Inform] : 01 4A 00 05 00 00 5B 0D 09 0C 07 E3 09 15 01 0C 
+22_Oct_2019 12:46:33 : [Inform] : 00 00 FF 01 4A 00 05 00 00 60 5F 09 0C 07 E3 09 
+22_Oct_2019 12:46:33 : [Inform] : 15 01 0F 00 00 FF 01 4A 00 05 00 00 51 59 09 0C 
+22_Oct_2019 12:46:33 : [Inform] : 07 E3 09 15 01 12 00 00 FF 01 4A 00 05 00 00 55 
+22_Oct_2019 12:46:33 : [Inform] : A4 09 0C 07 E3 09 15 01 15 00 00 FF 01 4A 00 AF 
+22_Oct_2019 12:46:33 : [Inform] : 1A 7E 
+22_Oct_2019 12:46:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:34 : [Inform] : update_bill_data_table()  : billing 1 row updated
+22_Oct_2019 12:46:37 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:46:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:38 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:43 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:46:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:49 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:46:52 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:46:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:46:58 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:46:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:46:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:04 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:47:05 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:47:05 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:07 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:47:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:47:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:13 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 22
+22_Oct_2019 12:47:13 : [Inform] : 7e a0 13 3 41 1a de cc e6 e6 0 c0 2 81 0 0 
+22_Oct_2019 12:47:13 : [Inform] : 0 1 73 7f 7e f 
+22_Oct_2019 12:47:13 : [Inform] : proc_recv_tcp_msg()       : Last Byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:13 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 267 block data for date time : 10_19_2019 17:60
+22_Oct_2019 12:47:13 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:47:13 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 266 block data for date time : 10_19_2019 18:15
+22_Oct_2019 12:47:13 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:47:13 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 265 block data for date time : 10_19_2019 18:30
+22_Oct_2019 12:47:13 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:47:13 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 264 block data for date time : 10_19_2019 18:45
+22_Oct_2019 12:47:13 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:47:13 : [Inform] : send_blk_data_resp()      : Sending  LS blk_dx : 263 block data for date time : 10_19_2019 18:60value response, Len : 350
+22_Oct_2019 12:47:13 : [Inform] : 7E A0 5C 41 03 11 5B 10 E6 E7 00 C4 02 81 00 00 
+22_Oct_2019 12:47:13 : [Inform] : 00 00 04 00 82 03 BC 02 0E 09 0C 07 E3 0A 13 01 
+22_Oct_2019 12:47:13 : [Inform] : 12 00 00 FF FF 4A 00 05 00 00 27 68 05 00 00 27 
+22_Oct_2019 12:47:13 : [Inform] : 10 05 00 00 27 64 05 00 09 9D 25 05 00 09 A1 89 
+22_Oct_2019 12:47:13 : [Inform] : 05 00 09 A1 14 05 00 07 A0 FD 05 00 00 4E A0 05 
+22_Oct_2019 12:47:13 : [Inform] : 00 00 53 2C 05 00 00 58 DF 05 00 00 50 A3 05 00 
+22_Oct_2019 12:47:13 : [Inform] : 00 54 8A 05 00 00 53 A3 02 0E 09 0C 07 E3 0A 13 
+22_Oct_2019 12:47:13 : [Inform] : 01 12 0F 00 FF FF 4A 00 05 00 00 26 F2 05 00 00 
+22_Oct_2019 12:47:13 : [Inform] : 26 F0 05 00 00 26 D4 05 00 09 9E 12 05 00 09 AA 
+22_Oct_2019 12:47:13 : [Inform] : EB 05 00 09 A6 82 05 00 07 A1 19 05 00 00 4F 45 
+22_Oct_2019 12:47:13 : [Inform] : 05 00 00 59 9B 05 00 00 50 93 05 00 00 53 85 05 
+22_Oct_2019 12:47:13 : [Inform] : 00 00 5B 9A 05 00 00 56 65 02 0E 09 0C 07 E3 0A 
+22_Oct_2019 12:47:13 : [Inform] : 13 01 12 1E 00 FF FF 4A 00 05 00 00 27 74 05 00 
+22_Oct_2019 12:47:13 : [Inform] : 00 27 6E 05 00 00 27 5D 05 00 09 9F 62 05 00 09 
+22_Oct_2019 12:47:13 : [Inform] : AD 6B 05 00 09 B0 23 05 00 07 A0 CA 05 00 00 60 
+22_Oct_2019 12:47:13 : [Inform] : 68 05 00 00 51 AC 05 00 00 57 50 05 00 00 57 F4 
+22_Oct_2019 12:47:13 : [Inform] : 05 00 00 5B 81 05 00 00 54 DB 02 0E 09 0C 07 E3 
+22_Oct_2019 12:47:13 : [Inform] : 0A 13 01 12 2D 00 FF FF 4A 00 05 00 00 27 5D 05 
+22_Oct_2019 12:47:13 : [Inform] : 00 00 27 40 05 00 00 26 B6 05 00 09 AC FA 05 00 
+22_Oct_2019 12:47:13 : [Inform] : 09 A2 54 05 00 09 A2 27 05 00 07 A0 FB 05 00 00 
+22_Oct_2019 12:47:13 : [Inform] : 4F EA 05 00 00 60 EB 05 00 00 57 DE 05 00 00 5F 
+22_Oct_2019 12:47:13 : [Inform] : 23 05 00 00 5A BA 05 00 00 57 23 89 B0 7E 
+22_Oct_2019 12:47:13 : [Inform] : proc_recv_tcp_msg()       : Recv GetNextReqst. Sent Resp for Load survey Block data
+22_Oct_2019 12:47:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:47:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:19 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:47:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:20 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:47:23 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:47:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:47:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:47:28 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:29 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:47:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:47:33 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:47:33 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:56 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:47:56 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:56 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 3
+22_Oct_2019 12:47:56 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:47:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:47:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:00 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 21
+22_Oct_2019 12:48:00 : [Inform] : 7e a0 13 3 41 1a de cc e6 e6 0 c0 2 81 0 0 
+22_Oct_2019 12:48:00 : [Inform] : 0 1 73 7f 7e 
+22_Oct_2019 12:48:00 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 263 block data for date time : 10_19_2019 18:60
+22_Oct_2019 12:48:00 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:48:00 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 262 block data for date time : 10_19_2019 19:15
+22_Oct_2019 12:48:00 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:48:00 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 261 block data for date time : 10_19_2019 19:30
+22_Oct_2019 12:48:00 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:48:00 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 260 block data for date time : 10_19_2019 19:45
+22_Oct_2019 12:48:01 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:48:01 : [Inform] : send_blk_data_resp()      : Sending  LS blk_dx : 259 block data for date time : 10_19_2019 19:60value response, Len : 350
+22_Oct_2019 12:48:01 : [Inform] : 7E A0 5C 41 03 11 5B 10 E6 E7 00 C4 02 81 00 00 
+22_Oct_2019 12:48:01 : [Inform] : 00 00 05 00 82 03 BC 02 0E 09 0C 07 E3 0A 13 01 
+22_Oct_2019 12:48:01 : [Inform] : 13 00 00 FF FF 4A 00 05 00 00 27 4E 05 00 00 26 
+22_Oct_2019 12:48:01 : [Inform] : DE 05 00 00 27 4F 05 00 09 9E 67 05 00 09 A2 3C 
+22_Oct_2019 12:48:01 : [Inform] : 05 00 09 A9 71 05 00 07 A0 EA 05 00 00 54 03 05 
+22_Oct_2019 12:48:01 : [Inform] : 00 00 57 B4 05 00 00 51 1B 05 00 00 4F 54 05 00 
+22_Oct_2019 12:48:01 : [Inform] : 00 5D 54 05 00 00 50 E3 02 0E 09 0C 07 E3 0A 13 
+22_Oct_2019 12:48:01 : [Inform] : 01 13 0F 00 FF FF 4A 00 05 00 00 26 DF 05 00 00 
+22_Oct_2019 12:48:01 : [Inform] : 27 20 05 00 00 27 5F 05 00 09 AA F4 05 00 09 A1 
+22_Oct_2019 12:48:01 : [Inform] : AC 05 00 09 9E B0 05 00 07 A0 DF 05 00 00 5D B0 
+22_Oct_2019 12:48:01 : [Inform] : 05 00 00 54 1D 05 00 00 4E 41 05 00 00 5D 74 05 
+22_Oct_2019 12:48:01 : [Inform] : 00 00 54 36 05 00 00 53 A4 02 0E 09 0C 07 E3 0A 
+22_Oct_2019 12:48:01 : [Inform] : 13 01 13 1E 00 FF FF 4A 00 05 00 00 27 36 05 00 
+22_Oct_2019 12:48:01 : [Inform] : 00 26 E2 05 00 00 26 B6 05 00 09 A5 0F 05 00 09 
+22_Oct_2019 12:48:01 : [Inform] : AD 5B 05 00 09 A7 78 05 00 07 A0 D3 05 00 00 5F 
+22_Oct_2019 12:48:01 : [Inform] : D7 05 00 00 58 81 05 00 00 53 E3 05 00 00 60 40 
+22_Oct_2019 12:48:01 : [Inform] : 05 00 00 59 E0 05 00 00 5F AA 02 0E 09 0C 07 E3 
+22_Oct_2019 12:48:01 : [Inform] : 0A 13 01 13 2D 00 FF FF 4A 00 05 00 00 27 5D 05 
+22_Oct_2019 12:48:01 : [Inform] : 00 00 26 B6 05 00 00 27 2B 05 00 09 A2 26 05 00 
+22_Oct_2019 12:48:01 : [Inform] : 09 AB A1 05 00 09 9F D3 05 00 07 A1 02 05 00 00 
+22_Oct_2019 12:48:01 : [Inform] : 5A 37 05 00 00 5C 5D 05 00 00 52 DF 05 00 00 52 
+22_Oct_2019 12:48:01 : [Inform] : C3 05 00 00 50 C6 05 00 00 58 9B 41 78 7E 
+22_Oct_2019 12:48:01 : [Inform] : proc_recv_tcp_msg()       : Recv GetNextReqst. Sent Resp for Load survey Block data
+22_Oct_2019 12:48:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:03 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:04 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:48:07 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:48:10 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:10 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:48:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:19 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:19 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:48:22 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:48:23 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 12:48:23 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 12:48:24 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:28 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 22
+22_Oct_2019 12:48:28 : [Inform] : 7e a0 13 3 41 1a de cc e6 e6 0 c0 2 81 0 0 
+22_Oct_2019 12:48:28 : [Inform] : 0 1 73 7f 7e f 
+22_Oct_2019 12:48:28 : [Inform] : proc_recv_tcp_msg()       : Last Byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:28 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 259 block data for date time : 10_19_2019 19:60
+22_Oct_2019 12:48:28 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:48:28 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 258 block data for date time : 10_19_2019 20:15
+22_Oct_2019 12:48:28 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:48:28 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 257 block data for date time : 10_19_2019 20:30
+22_Oct_2019 12:48:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:29 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:48:29 : [Inform] : fill_ls_data()            : Sending  LS blk_dx : 256 block data for date time : 10_19_2019 20:45
+22_Oct_2019 12:48:29 : [Inform] : update_ls_table()         : Load survey 1 row updated
+22_Oct_2019 12:48:29 : [Inform] : send_blk_data_resp()      : Sending  LS blk_dx : 255 block data for date time : 10_19_2019 20:60value response, Len : 350
+22_Oct_2019 12:48:29 : [Inform] : 7E A0 5C 41 03 11 5B 10 E6 E7 00 C4 02 81 00 00 
+22_Oct_2019 12:48:29 : [Inform] : 00 00 06 00 82 03 BC 02 0E 09 0C 07 E3 0A 13 01 
+22_Oct_2019 12:48:29 : [Inform] : 14 00 00 FF FF 4A 00 05 00 00 27 52 05 00 00 26 
+22_Oct_2019 12:48:29 : [Inform] : EF 05 00 00 27 15 05 00 09 AE BC 05 00 09 AA 17 
+22_Oct_2019 12:48:29 : [Inform] : 05 00 09 A7 D0 05 00 07 A1 1D 05 00 00 57 B7 05 
+22_Oct_2019 12:48:29 : [Inform] : 00 00 60 FF 05 00 00 54 DD 05 00 00 58 51 05 00 
+22_Oct_2019 12:48:29 : [Inform] : 00 50 80 05 00 00 5A AA 02 0E 09 0C 07 E3 0A 13 
+22_Oct_2019 12:48:29 : [Inform] : 01 14 0F 00 FF FF 4A 00 05 00 00 26 DF 05 00 00 
+22_Oct_2019 12:48:29 : [Inform] : 27 23 05 00 00 26 D5 05 00 09 A5 FE 05 00 09 A0 
+22_Oct_2019 12:48:29 : [Inform] : 96 05 00 09 A2 05 05 00 07 A0 D8 05 00 00 5B EF 
+22_Oct_2019 12:48:29 : [Inform] : 05 00 00 55 77 05 00 00 53 6B 05 00 00 5B 9D 05 
+22_Oct_2019 12:48:29 : [Inform] : 00 00 59 A5 05 00 00 55 2F 02 0E 09 0C 07 E3 0A 
+22_Oct_2019 12:48:29 : [Inform] : 13 01 14 1E 00 FF FF 4A 00 05 00 00 26 B6 05 00 
+22_Oct_2019 12:48:29 : [Inform] : 00 27 07 05 00 00 27 38 05 00 09 AD CC 05 00 09 
+22_Oct_2019 12:48:29 : [Inform] : A1 AC 05 00 09 AF 6C 05 00 07 A1 1A 05 00 00 4F 
+22_Oct_2019 12:48:29 : [Inform] : F9 05 00 00 5E 64 05 00 00 5E 4C 05 00 00 56 F6 
+22_Oct_2019 12:48:29 : [Inform] : 05 00 00 55 30 05 00 00 4F 1B 02 0E 09 0C 07 E3 
+22_Oct_2019 12:48:29 : [Inform] : 0A 13 01 14 2D 00 FF FF 4A 00 05 00 00 27 65 05 
+22_Oct_2019 12:48:29 : [Inform] : 00 00 27 24 05 00 00 26 FE 05 00 09 AD EF 05 00 
+22_Oct_2019 12:48:29 : [Inform] : 09 AC FD 05 00 09 A7 74 05 00 07 A0 EA 05 00 00 
+22_Oct_2019 12:48:29 : [Inform] : 4E 48 05 00 00 5C 9F 05 00 00 4F 9A 05 00 00 52 
+22_Oct_2019 12:48:29 : [Inform] : 04 05 00 00 5F 96 05 00 00 52 E2 F7 37 7E 
+22_Oct_2019 12:48:29 : [Inform] : proc_recv_tcp_msg()       : Recv GetNextReqst. Sent Resp for Load survey Block data
+22_Oct_2019 12:48:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:48:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:38 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:48:39 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:44 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:44 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:48:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:48:49 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:53 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:48:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:59 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:48:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:48:59 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:49:02 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:49:04 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:08 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 28
+22_Oct_2019 12:49:08 : [Inform] : 7e a0 19 3 41 1c 46 75 e6 e6 0 c0 1 81 0 7 
+22_Oct_2019 12:49:08 : [Inform] : 1 0 5e 5b 7 ff 3 0 6d c1 7e f 
+22_Oct_2019 12:49:08 : [Inform] : proc_recv_tcp_msg()       : Last Byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:08 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 3
+22_Oct_2019 12:49:08 : [Inform] : proc_recv_tcp_msg()       : I frame  val Obis By Group qry
+22_Oct_2019 12:49:08 : [Inform] : proc_all_scalar_obis_by_grp() : Sending event scaler obis by group info response, Len : 218
+22_Oct_2019 12:49:08 : [Inform] : 7E A0 D8 41 03 11 D9 4F E6 E7 00 C4 01 81 00 01 
+22_Oct_2019 12:49:08 : [Inform] : 0B 02 04 12 00 03 09 06 01 00 1F 07 00 FF 0F 03 
+22_Oct_2019 12:49:08 : [Inform] : 12 00 00 02 04 12 00 03 09 06 01 00 33 07 00 FF 
+22_Oct_2019 12:49:08 : [Inform] : 0F 03 12 00 00 02 04 12 00 03 09 06 01 00 47 07 
+22_Oct_2019 12:49:08 : [Inform] : 00 FF 0F 03 12 00 00 02 04 12 00 03 09 06 01 00 
+22_Oct_2019 12:49:08 : [Inform] : 20 07 00 FF 0F 03 12 00 00 02 04 12 00 03 09 06 
+22_Oct_2019 12:49:08 : [Inform] : 01 00 34 07 00 FF 0F 03 12 00 00 02 04 12 00 03 
+22_Oct_2019 12:49:08 : [Inform] : 09 06 01 00 48 07 00 FF 0F 03 12 00 00 02 04 12 
+22_Oct_2019 12:49:08 : [Inform] : 00 03 09 06 01 00 21 07 00 FF 0F 03 12 00 00 02 
+22_Oct_2019 12:49:08 : [Inform] : 04 12 00 03 09 06 01 00 35 07 00 FF 0F 03 12 00 
+22_Oct_2019 12:49:08 : [Inform] : 00 02 04 12 00 03 09 06 01 00 49 07 00 FF 0F 03 
+22_Oct_2019 12:49:08 : [Inform] : 12 00 00 02 04 12 00 03 09 06 01 00 01 08 00 FF 
+22_Oct_2019 12:49:08 : [Inform] : 0F 03 12 00 00 02 04 12 00 03 09 06 00 00 60 0B 
+22_Oct_2019 12:49:08 : [Inform] : 00 FF 0F 03 12 00 00 EE 76 7E 
+22_Oct_2019 12:49:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:08 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:14 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:14 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:49:17 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 28
+22_Oct_2019 12:49:17 : [Inform] : 7e a0 19 3 41 1e 54 56 e6 e6 0 c0 1 81 0 7 
+22_Oct_2019 12:49:17 : [Inform] : 1 0 5e 5b 7 ff 2 0 b5 d8 7e f 
+22_Oct_2019 12:49:17 : [Inform] : proc_recv_tcp_msg()       : Last Byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:17 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 2
+22_Oct_2019 12:49:17 : [Inform] : proc_recv_tcp_msg()       : I frame  scalar Val By Group qry
+22_Oct_2019 12:49:17 : [Inform] : proc_all_val_by_grp()     : Sending Event scaler val by group info response, Len : 88
+22_Oct_2019 12:49:17 : [Inform] : 7E A0 56 41 03 11 F5 CC E6 E7 00 C4 01 81 00 01 
+22_Oct_2019 12:49:17 : [Inform] : 01 02 0B 02 02 FC FC 16 1F 02 02 FC FC 16 1F 02 
+22_Oct_2019 12:49:17 : [Inform] : 02 FC FC 16 1F 02 02 FC FC 16 1F 02 02 FC FC 16 
+22_Oct_2019 12:49:17 : [Inform] : 1F 02 02 FC FC 16 1F 02 02 FC FC 16 1F 02 02 FC 
+22_Oct_2019 12:49:17 : [Inform] : FC 16 1F 02 02 FC FC 16 1F 02 02 FC FC 16 1F 02 
+22_Oct_2019 12:49:17 : [Inform] : 02 00 FC 16 1F C3 70 7E 
+22_Oct_2019 12:49:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:23 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:49:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:26 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 27
+22_Oct_2019 12:49:26 : [Inform] : 7e a0 19 3 41 10 2a bf e6 e6 0 c0 1 81 0 7 
+22_Oct_2019 12:49:26 : [Inform] : 0 0 63 62 0 ff 3 0 49 60 7e 
+22_Oct_2019 12:49:26 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 3
+22_Oct_2019 12:49:26 : [Inform] : proc_recv_tcp_msg()       : I frame  val Obis By Group qry
+22_Oct_2019 12:49:26 : [Inform] : proc_all_scalar_obis_by_grp() : Sending event val obis by group info response, Len : 236
+22_Oct_2019 12:49:26 : [Inform] : 7E A0 EA 41 03 11 5D 3A E6 E7 00 C4 01 81 00 01 
+22_Oct_2019 12:49:26 : [Inform] : 0C 02 04 12 00 08 09 06 00 00 01 00 00 FF 0F 02 
+22_Oct_2019 12:49:26 : [Inform] : 12 00 00 02 04 12 00 03 09 06 01 00 1F 07 00 FF 
+22_Oct_2019 12:49:26 : [Inform] : 0F 02 12 00 00 02 04 12 00 03 09 06 01 00 33 07 
+22_Oct_2019 12:49:26 : [Inform] : 00 FF 0F 02 12 00 00 02 04 12 00 03 09 06 01 00 
+22_Oct_2019 12:49:26 : [Inform] : 47 07 00 FF 0F 02 12 00 00 02 04 12 00 03 09 06 
+22_Oct_2019 12:49:26 : [Inform] : 01 00 20 07 00 FF 0F 02 12 00 00 02 04 12 00 03 
+22_Oct_2019 12:49:26 : [Inform] : 09 06 01 00 34 07 00 FF 0F 02 12 00 00 02 04 12 
+22_Oct_2019 12:49:26 : [Inform] : 00 03 09 06 01 00 48 07 00 FF 0F 02 12 00 00 02 
+22_Oct_2019 12:49:26 : [Inform] : 04 12 00 03 09 06 01 00 21 07 00 FF 0F 02 12 00 
+22_Oct_2019 12:49:26 : [Inform] : 00 02 04 12 00 03 09 06 01 00 35 07 00 FF 0F 02 
+22_Oct_2019 12:49:26 : [Inform] : 12 00 00 02 04 12 00 03 09 06 01 00 49 07 00 FF 
+22_Oct_2019 12:49:26 : [Inform] : 0F 02 12 00 00 02 04 12 00 03 09 06 01 00 01 08 
+22_Oct_2019 12:49:26 : [Inform] : 00 FF 0F 02 12 00 00 02 04 12 00 03 09 06 00 00 
+22_Oct_2019 12:49:26 : [Inform] : 60 0B 00 FF 0F 02 12 00 00 DE CC 7E 
+22_Oct_2019 12:49:29 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:29 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:49:32 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:49:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:38 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:49:38 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:44 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:49:47 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:49:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:49 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:50 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 46
+22_Oct_2019 12:49:50 : [Inform] : 7e a0 2c 3 41 12 9d be e6 e6 0 c0 1 81 0 7 
+22_Oct_2019 12:49:51 : [Inform] : 0 0 63 62 0 ff 2 1 2 2 4 6 0 0 0 1 
+22_Oct_2019 12:49:51 : [Inform] : 6 0 0 0 6 12 0 1 12 2 0 64 b1 7e 
+22_Oct_2019 12:49:51 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 2
+22_Oct_2019 12:49:51 : [Inform] : proc_recv_tcp_msg()       : I frame  scalar Val By Group qry
+22_Oct_2019 12:49:52 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:49:52 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:49:53 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:49:54 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:49:54 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:49:54 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:49:55 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:49:55 : [Inform] : 
+22_Oct_2019 12:49:55 : [Inform] : 7E A0 BC 41 03 11 D1 A4 E6 E7 00 C4 01 81 00 01 
+22_Oct_2019 12:49:55 : [Inform] : 06 02 0C 09 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 
+22_Oct_2019 12:49:55 : [Inform] : 00 05 00 00 2E 93 05 00 00 37 86 05 00 00 3C DE 
+22_Oct_2019 12:49:55 : [Inform] : 05 00 09 AF 99 05 00 09 A4 ED 05 00 09 AA 94 05 
+22_Oct_2019 12:49:55 : [Inform] : 00 00 27 10 05 00 00 27 10 05 00 00 27 10 05 00 
+22_Oct_2019 12:49:55 : [Inform] : 03 C4 FB 05 00 00 00 09 02 0C 09 0C 07 E3 0A 15 
+22_Oct_2019 12:49:55 : [Inform] : 01 0C 00 00 FF 01 4A 00 05 00 00 3C 06 05 00 00 
+22_Oct_2019 12:49:55 : [Inform] : 2E FF 05 00 00 4D E8 05 00 09 AB 02 05 00 09 A1 
+22_Oct_2019 12:49:55 : [Inform] : 1B 05 00 09 A9 78 05 00 00 27 11 05 00 00 27 11 
+22_Oct_2019 12:49:55 : [Inform] : 05 00 00 27 10 05 00 03 73 FE 05 00 00 00 0A 02 
+22_Oct_2019 12:49:55 : [Inform] : 0C 09 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 00 05 
+22_Oct_2019 12:49:55 : [Inform] : 00 00 41 DE 05 00 00 3B 96 05 00 00 2C 2B 05 00 
+22_Oct_2019 12:49:55 : [Inform] : 09 AA 7E 05 00 09 AB D7 05 00 09 B0 0E 05 00 00 
+22_Oct_2019 12:49:55 : [Inform] : 27 10 05 00 00 27 11 05 00 00 27 10 05 00 03 3E 
+22_Oct_2019 12:49:55 : [Inform] : 60 05 00 00 00 09 02 0C 09 0C 07 E3 0A 15 01 0C 
+22_Oct_2019 12:49:55 : [Inform] : 00 00 FF 01 4A 00 05 00 00 38 15 05 00 00 48 B7 
+22_Oct_2019 12:49:55 : [Inform] : 05 00 00 2A E4 05 00 09 9E 0E 05 00 09 AC 1A 05 
+22_Oct_2019 12:49:55 : [Inform] : 00 09 A8 40 05 00 00 27 11 05 00 00 27 11 05 00 
+22_Oct_2019 12:49:55 : [Inform] : 00 27 11 05 00 03 95 ED 05 00 00 00 0A 02 0C 09 
+22_Oct_2019 12:49:55 : [Inform] : 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 00 05 00 00 
+22_Oct_2019 12:49:55 : [Inform] : 2E BE 05 00 00 49 74 05 00 00 35 27 05 00 09 A2 
+22_Oct_2019 12:49:55 : [Inform] : 6C 05 00 09 AE BE 05 00 09 A3 F1 05 00 00 27 11 
+22_Oct_2019 12:49:55 : [Inform] : 05 00 00 27 10 05 00 00 27 11 05 00 03 77 D4 05 
+22_Oct_2019 12:49:55 : [Inform] : 00 00 00 09 02 0C 09 0C 07 E3 0A 15 01 0C 00 00 
+22_Oct_2019 12:49:55 : [Inform] : FF 01 4A 00 05 00 00 2C E6 05 00 00 39 59 05 00 
+22_Oct_2019 12:49:55 : [Inform] : 00 2D A4 05 00 09 A2 D5 05 00 09 A6 89 05 00 09 
+22_Oct_2019 12:49:55 : [Inform] : A1 FD 05 00 00 27 11 05 00 00 27 10 05 00 00 27 
+22_Oct_2019 12:49:55 : [Inform] : 10 05 00 03 21 B3 05 00 00 00 0A C6 57 7E 
+22_Oct_2019 12:49:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:49:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:04 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:50:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:07 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:50:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:09 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:13 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:50:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:14 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:19 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:50:22 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:50:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:28 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:50:28 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:29 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:34 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:34 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:34 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:50:37 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 47
+22_Oct_2019 12:50:37 : [Inform] : 7e a0 2c 3 41 12 9d be e6 e6 0 c0 1 81 0 7 
+22_Oct_2019 12:50:37 : [Inform] : 0 0 63 62 0 ff 2 1 2 2 4 6 0 0 0 1 
+22_Oct_2019 12:50:37 : [Inform] : 6 0 0 0 6 12 0 1 12 2 0 64 b1 7e f 
+22_Oct_2019 12:50:37 : [Inform] : proc_recv_tcp_msg()       : Last Byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:37 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 2
+22_Oct_2019 12:50:37 : [Inform] : proc_recv_tcp_msg()       : I frame  scalar Val By Group qry
+22_Oct_2019 12:50:37 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:37 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:37 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:38 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:38 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:38 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:38 : [Inform] : 
+22_Oct_2019 12:50:38 : [Inform] : 7E A0 BC 41 03 11 D1 A4 E6 E7 00 C4 01 81 00 01 
+22_Oct_2019 12:50:38 : [Inform] : 06 02 0C 09 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 
+22_Oct_2019 12:50:38 : [Inform] : 00 05 00 00 2C F4 05 00 00 2B 27 05 00 00 32 24 
+22_Oct_2019 12:50:38 : [Inform] : 05 00 09 A0 17 05 00 09 9D D1 05 00 09 9E 30 05 
+22_Oct_2019 12:50:38 : [Inform] : 00 00 27 10 05 00 00 27 10 05 00 00 27 10 05 00 
+22_Oct_2019 12:50:38 : [Inform] : 03 C5 52 05 00 00 00 09 02 0C 09 0C 07 E3 0A 15 
+22_Oct_2019 12:50:38 : [Inform] : 01 0C 00 00 FF 01 4A 00 05 00 00 4C DE 05 00 00 
+22_Oct_2019 12:50:38 : [Inform] : 4C 3C 05 00 00 3B 7D 05 00 09 A3 36 05 00 09 A2 
+22_Oct_2019 12:50:38 : [Inform] : 1B 05 00 09 A0 D0 05 00 00 27 11 05 00 00 27 10 
+22_Oct_2019 12:50:38 : [Inform] : 05 00 00 27 10 05 00 03 7D 6C 05 00 00 00 0A 02 
+22_Oct_2019 12:50:38 : [Inform] : 0C 09 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 00 05 
+22_Oct_2019 12:50:38 : [Inform] : 00 00 45 56 05 00 00 36 4A 05 00 00 42 C1 05 00 
+22_Oct_2019 12:50:38 : [Inform] : 09 9F 4B 05 00 09 9F 41 05 00 09 AB 32 05 00 00 
+22_Oct_2019 12:50:38 : [Inform] : 27 11 05 00 00 27 10 05 00 00 27 10 05 00 03 7B 
+22_Oct_2019 12:50:38 : [Inform] : AB 05 00 00 00 09 02 0C 09 0C 07 E3 0A 15 01 0C 
+22_Oct_2019 12:50:38 : [Inform] : 00 00 FF 01 4A 00 05 00 00 48 72 05 00 00 4B 77 
+22_Oct_2019 12:50:38 : [Inform] : 05 00 00 33 65 05 00 09 A4 8C 05 00 09 AA 3B 05 
+22_Oct_2019 12:50:38 : [Inform] : 00 09 AE 00 05 00 00 27 11 05 00 00 27 11 05 00 
+22_Oct_2019 12:50:38 : [Inform] : 00 27 10 05 00 03 7C 71 05 00 00 00 0A 02 0C 09 
+22_Oct_2019 12:50:38 : [Inform] : 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 00 05 00 00 
+22_Oct_2019 12:50:38 : [Inform] : 41 B8 05 00 00 3F 0D 05 00 00 42 08 05 00 09 AF 
+22_Oct_2019 12:50:38 : [Inform] : DA 05 00 09 A8 A8 05 00 09 9E 61 05 00 00 27 10 
+22_Oct_2019 12:50:38 : [Inform] : 05 00 00 27 11 05 00 00 27 11 05 00 03 BF 10 05 
+22_Oct_2019 12:50:38 : [Inform] : 00 00 00 09 02 0C 09 0C 07 E3 0A 15 01 0C 00 00 
+22_Oct_2019 12:50:38 : [Inform] : FF 01 4A 00 05 00 00 48 80 05 00 00 2E 77 05 00 
+22_Oct_2019 12:50:38 : [Inform] : 00 4D 0E 05 00 09 AF 6C 05 00 09 AC FC 05 00 09 
+22_Oct_2019 12:50:38 : [Inform] : 9F 72 05 00 00 27 11 05 00 00 27 10 05 00 00 27 
+22_Oct_2019 12:50:38 : [Inform] : 11 05 00 03 33 87 05 00 00 00 0A 64 22 7E 
+22_Oct_2019 12:50:39 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:39 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:43 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:44 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:44 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:50:47 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 47
+22_Oct_2019 12:50:47 : [Inform] : 7e a0 2c 3 41 14 ab db e6 e6 0 c0 1 81 0 7 
+22_Oct_2019 12:50:47 : [Inform] : 0 0 63 62 2 ff 2 1 2 2 4 6 0 0 0 1 
+22_Oct_2019 12:50:47 : [Inform] : 6 0 0 0 6 12 0 1 12 2 0 e7 aa 7e f 
+22_Oct_2019 12:50:47 : [Inform] : proc_recv_tcp_msg()       : Last Byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:47 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 2
+22_Oct_2019 12:50:47 : [Inform] : proc_recv_tcp_msg()       : I frame  scalar Val By Group qry
+22_Oct_2019 12:50:47 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:47 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:48 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:48 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:48 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:48 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:50:48 : [Inform] : 
+22_Oct_2019 12:50:48 : [Inform] : 7E A0 90 41 03 11 B6 BC E6 E7 00 C4 01 81 00 01 
+22_Oct_2019 12:50:48 : [Inform] : 06 02 02 09 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 
+22_Oct_2019 12:50:48 : [Inform] : 00 05 00 00 00 65 02 02 09 0C 07 E3 0A 15 01 0C 
+22_Oct_2019 12:50:48 : [Inform] : 00 00 FF 01 4A 00 05 00 00 00 66 02 02 09 0C 07 
+22_Oct_2019 12:50:48 : [Inform] : E3 0A 15 01 0C 00 00 FF 01 4A 00 05 00 00 00 65 
+22_Oct_2019 12:50:48 : [Inform] : 02 02 09 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 00 
+22_Oct_2019 12:50:48 : [Inform] : 05 00 00 00 66 02 02 09 0C 07 E3 0A 15 01 0C 00 
+22_Oct_2019 12:50:48 : [Inform] : 00 FF 01 4A 00 05 00 00 00 65 02 02 09 0C 07 E3 
+22_Oct_2019 12:50:48 : [Inform] : 0A 15 01 0C 00 00 FF 01 4A 00 05 00 00 00 66 BE 
+22_Oct_2019 12:50:48 : [Inform] : 69 7E 
+22_Oct_2019 12:50:48 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:48 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:53 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:54 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:50:54 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:50:57 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:50:58 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:50:59 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:51:03 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:51:03 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:51:04 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:51:08 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:51:09 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:51:09 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:51:12 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 47
+22_Oct_2019 12:51:12 : [Inform] : 7e a0 2c 3 41 16 b9 f8 e6 e6 0 c0 1 81 0 7 
+22_Oct_2019 12:51:12 : [Inform] : 0 0 63 62 3 ff 2 1 2 2 4 6 0 0 0 1 
+22_Oct_2019 12:51:12 : [Inform] : 6 0 0 0 6 12 0 1 12 2 0 2e 23 7e f 
+22_Oct_2019 12:51:12 : [Inform] : proc_recv_tcp_msg()       : Last Byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:51:12 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 2
+22_Oct_2019 12:51:12 : [Inform] : proc_recv_tcp_msg()       : I frame  scalar Val By Group qry
+22_Oct_2019 12:51:12 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:12 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:12 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:12 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:12 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:12 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:12 : [Inform] : 
+22_Oct_2019 12:51:12 : [Inform] : 7E A0 90 41 03 11 B6 BC E6 E7 00 C4 01 81 00 01 
+22_Oct_2019 12:51:12 : [Inform] : 06 02 02 09 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 
+22_Oct_2019 12:51:12 : [Inform] : 00 05 00 00 00 97 02 02 09 0C 07 E3 0A 15 01 0C 
+22_Oct_2019 12:51:12 : [Inform] : 00 00 FF 01 4A 00 05 00 00 00 98 02 02 09 0C 07 
+22_Oct_2019 12:51:12 : [Inform] : E3 0A 15 01 0C 00 00 FF 01 4A 00 05 00 00 00 97 
+22_Oct_2019 12:51:12 : [Inform] : 02 02 09 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 00 
+22_Oct_2019 12:51:12 : [Inform] : 05 00 00 00 98 02 02 09 0C 07 E3 0A 15 01 0C 00 
+22_Oct_2019 12:51:12 : [Inform] : 00 FF 01 4A 00 05 00 00 00 97 02 02 09 0C 07 E3 
+22_Oct_2019 12:51:12 : [Inform] : 0A 15 01 0C 00 00 FF 01 4A 00 05 00 00 00 98 97 
+22_Oct_2019 12:51:12 : [Inform] : 5E 7E 
+22_Oct_2019 12:51:13 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:51:13 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:51:18 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:51:19 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:51:19 : [Inform] : proc_msg()                : Msg recv on socket Numbyte : 47
+22_Oct_2019 12:51:19 : [Inform] : f 7e a0 2c 3 41 18 c7 11 e6 e6 0 c0 1 81 0 
+22_Oct_2019 12:51:19 : [Inform] : 7 0 0 63 62 4 ff 2 1 2 2 4 6 0 0 0 
+22_Oct_2019 12:51:19 : [Inform] : 1 6 0 0 0 6 12 0 1 12 2 0 62 86 7e 
+22_Oct_2019 12:51:19 : [Inform] : proc_recv_tcp_msg()       : 1st byte Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:51:19 : [Inform] : proc_recv_tcp_msg()       : I frame Qry IntfClass : 7 attribute : 2
+22_Oct_2019 12:51:19 : [Inform] : proc_recv_tcp_msg()       : I frame  scalar Val By Group qry
+22_Oct_2019 12:51:20 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:20 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:20 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:20 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:20 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:20 : [Inform] : update_event_val_table()  : Event 1 row updated
+22_Oct_2019 12:51:20 : [Inform] : 
+22_Oct_2019 12:51:20 : [Inform] : 7E A0 BC 41 03 11 D1 A4 E6 E7 00 C4 01 81 00 01 
+22_Oct_2019 12:51:20 : [Inform] : 06 02 0C 09 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 
+22_Oct_2019 12:51:20 : [Inform] : 00 05 00 00 37 A8 05 00 00 4D 4D 05 00 00 30 4C 
+22_Oct_2019 12:51:20 : [Inform] : 05 00 09 A1 63 05 00 09 AD 23 05 00 09 A7 AF 05 
+22_Oct_2019 12:51:20 : [Inform] : 00 00 27 11 05 00 00 27 10 05 00 00 27 10 05 00 
+22_Oct_2019 12:51:20 : [Inform] : 03 1F 26 05 00 00 00 C9 02 0C 09 0C 07 E3 0A 15 
+22_Oct_2019 12:51:20 : [Inform] : 01 0C 00 00 FF 01 4A 00 05 00 00 2E F8 05 00 00 
+22_Oct_2019 12:51:20 : [Inform] : 3D 52 05 00 00 36 93 05 00 09 A1 47 05 00 09 A5 
+22_Oct_2019 12:51:20 : [Inform] : 3D 05 00 09 A7 57 05 00 00 27 11 05 00 00 27 10 
+22_Oct_2019 12:51:20 : [Inform] : 05 00 00 27 10 05 00 03 95 31 05 00 00 00 CA 02 
+22_Oct_2019 12:51:20 : [Inform] : 0C 09 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 00 05 
+22_Oct_2019 12:51:20 : [Inform] : 00 00 2C C7 05 00 00 31 59 05 00 00 43 3E 05 00 
+22_Oct_2019 12:51:21 : [Inform] : 09 A0 99 05 00 09 9F D9 05 00 09 AE 19 05 00 00 
+22_Oct_2019 12:51:21 : [Inform] : 27 11 05 00 00 27 11 05 00 00 27 10 05 00 03 3D 
+22_Oct_2019 12:51:21 : [Inform] : EA 05 00 00 00 C9 02 0C 09 0C 07 E3 0A 15 01 0C 
+22_Oct_2019 12:51:21 : [Inform] : 00 00 FF 01 4A 00 05 00 00 4B C3 05 00 00 45 B7 
+22_Oct_2019 12:51:21 : [Inform] : 05 00 00 2B 24 05 00 09 AF 69 05 00 09 A1 59 05 
+22_Oct_2019 12:51:21 : [Inform] : 00 09 AB 7D 05 00 00 27 11 05 00 00 27 10 05 00 
+22_Oct_2019 12:51:21 : [Inform] : 00 27 11 05 00 03 2E 70 05 00 00 00 CA 02 0C 09 
+22_Oct_2019 12:51:21 : [Inform] : 0C 07 E3 0A 15 01 0C 00 00 FF 01 4A 00 05 00 00 
+22_Oct_2019 12:51:21 : [Inform] : 4B 81 05 00 00 37 9A 05 00 00 45 BC 05 00 09 9F 
+22_Oct_2019 12:51:21 : [Inform] : E1 05 00 09 A5 AB 05 00 09 A2 7F 05 00 00 27 10 
+22_Oct_2019 12:51:21 : [Inform] : 05 00 00 27 11 05 00 00 27 11 05 00 03 6E 1E 05 
+22_Oct_2019 12:51:21 : [Inform] : 00 00 00 C9 02 0C 09 0C 07 E3 0A 15 01 0C 00 00 
+22_Oct_2019 12:51:21 : [Inform] : FF 01 4A 00 05 00 00 34 DF 05 00 00 49 B5 05 00 
+22_Oct_2019 12:51:21 : [Inform] : 00 2A EA 05 00 09 AA 71 05 00 09 AA AA 05 00 09 
+22_Oct_2019 12:51:21 : [Inform] : AB 96 05 00 00 27 10 05 00 00 27 11 05 00 00 27 
+22_Oct_2019 12:51:21 : [Inform] : 10 05 00 03 A9 56 05 00 00 00 CA D6 54 7E 
+22_Oct_2019 12:51:23 : [Inform] : check_modem_cmd()         : Recv command form mdas server to Modem , Byte : 1
+22_Oct_2019 12:51:24 : [Inform] : proc_modem_cmd()          : Recvd Keep Alive cmd, sending back resp 
+22_Oct_2019 12:51:24 : [Inform] : proc_modem_thread()       : Sending HC Message
+22_Oct_2019 12:51:24 : [Inform] : send_modem_startup_msg()  : Send HC msg resp len : 492
+22_Oct_2019 12:51:24 : [Inform] : proc_msg()                : -->>>Recvd Keep Alive cmd, sending back resp
+22_Oct_2019 12:51:43 : [Inform] : proc_msg()                : Keyboard Interrupt in Error : [Errno 10054] An existing connection was forcibly closed by the remote host
+22_Oct_2019 12:51:43 : [Inform] : proc_msg()                : live_app_flag false Need to close every things
+22_Oct_2019 12:51:43 : [Report] : proc_mdas_thread          : Problems in main function need to close
+22_Oct_2019 12:51:46 : [Inform] : proc_modem_thread()       : Modem thread error, returning from here
+22_Oct_2019 12:51:47 : [Inform] : proc_mdas_thread          : KeyboardInterrupt or Problems in mdas_thread need to close in  read , Error : 0
